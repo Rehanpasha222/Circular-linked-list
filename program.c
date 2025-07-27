@@ -15,4 +15,6 @@ if (front == -1) {
         rear = (rear + 1) % SIZE;
     }
 queue[rear] = value;
+ printf("Inserted: %d\n", value);
+}
 
