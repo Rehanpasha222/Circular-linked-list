@@ -57,6 +57,9 @@ while (1) {
                 scanf("%d", &value);
                 enqueue(value);
                 break;
+		case 2:
+                dequeue();
+                break;
     
 
 
