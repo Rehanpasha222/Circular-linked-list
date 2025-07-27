@@ -46,7 +46,11 @@ void display() {
 }
 int main() {
     int choice, value;
-
+while (1) {
+        printf("\nCircular Queue Menu:\n");
+        printf("1. Enqueue\n2. Dequeue\n3. Display\n4. Exit\n");
+        printf("Enter your choice: ");
+        scanf("%d", &choice);
     
 
 
