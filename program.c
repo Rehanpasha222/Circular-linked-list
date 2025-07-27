@@ -52,6 +52,11 @@ while (1) {
         printf("Enter your choice: ");
         scanf("%d", &choice);
 	 switch (choice) {
+		 case 1:
+                printf("Enter value to insert: ");
+                scanf("%d", &value);
+                enqueue(value);
+                break;
     
 
 
