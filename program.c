@@ -23,4 +23,6 @@ void dequeue() {
         return;
     }
     printf("Deleted: %d\n", queue[front]);
+    if (front == rear) {
+        front = rear = -1;
 
