@@ -17,4 +17,6 @@ if (front == -1) {
 queue[rear] = value;
  printf("Inserted: %d\n", value);
 }
+void dequeue() {
+    if (front == -1) {
 
