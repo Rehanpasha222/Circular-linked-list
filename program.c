@@ -34,6 +34,14 @@ void display() {
 	     printf("Queue is empty\n");
         return;
     }
+     printf("Queue elements: ");
+    int i = front;
+    while (1) {
+        printf("%d ", queue[i]);
+        if (i == rear)
+            break;
+        i = (i + 1) % SIZE;
+    }
     
 
 
