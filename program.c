@@ -4,3 +4,4 @@
 
 int queue[SIZE];
 int front = -1, rear = -1;
+void enqueue(int value) {
