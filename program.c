@@ -60,6 +60,9 @@ while (1) {
 		case 2:
                 dequeue();
                 break;
+		 case 3:
+                display();
+                break;
     
 
 
