@@ -42,6 +42,8 @@ void display() {
             break;
         i = (i + 1) % SIZE;
     }
+    printf("\n");
+}
     
 
 
