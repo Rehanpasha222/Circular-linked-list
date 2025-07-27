@@ -22,4 +22,5 @@ void dequeue() {
 	     printf("Queue is empty (Underflow)\n");
         return;
     }
+    printf("Deleted: %d\n", queue[front]);
 
