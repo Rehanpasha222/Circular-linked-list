@@ -19,4 +19,7 @@ queue[rear] = value;
 }
 void dequeue() {
     if (front == -1) {
+	     printf("Queue is empty (Underflow)\n");
+        return;
+    }
 
