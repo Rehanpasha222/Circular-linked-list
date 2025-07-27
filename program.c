@@ -29,6 +29,8 @@ void dequeue() {
         front = (front + 1) % SIZE;
     }
 }
+void display() {
+    if (front == -1) {
     
 
 
