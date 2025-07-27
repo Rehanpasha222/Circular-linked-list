@@ -70,7 +70,8 @@ while (1) {
                 printf("Invalid choice! Try again.\n");
         }
     }
-
+ return 0;
+}
     
 
 
