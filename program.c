@@ -25,4 +25,32 @@ void dequeue() {
     printf("Deleted: %d\n", queue[front]);
     if (front == rear) {
         front = rear = -1;
+	} else {
+        front = (front + 1) % SIZE;
+    }
+}
+    
+
+
+~
+~
+~
+~
+~
+~
+~
+~
+~
+~
+~
+~
+~
+~
+~
+~
+~
+~
+program.c[+] [unix] (19:45 27/07/2025)                                                                                                                                                28,2-9 All
+-- INSERT --
+
 
