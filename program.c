@@ -31,6 +31,9 @@ void dequeue() {
 }
 void display() {
     if (front == -1) {
+	     printf("Queue is empty\n");
+        return;
+    }
     
 
 
