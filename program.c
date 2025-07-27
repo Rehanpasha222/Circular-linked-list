@@ -9,3 +9,6 @@ void enqueue(int value) {
 		printf("Queue is full (Overflow)\n");
         return;
     }
+if (front == -1) {
+        front = rear = 0;
+
