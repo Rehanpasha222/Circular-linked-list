@@ -14,4 +14,5 @@ if (front == -1) {
 	} else {
         rear = (rear + 1) % SIZE;
     }
+queue[rear] = value;
 
