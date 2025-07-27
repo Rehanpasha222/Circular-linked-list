@@ -51,6 +51,7 @@ while (1) {
         printf("1. Enqueue\n2. Dequeue\n3. Display\n4. Exit\n");
         printf("Enter your choice: ");
         scanf("%d", &choice);
+	 switch (choice) {
     
 
 
