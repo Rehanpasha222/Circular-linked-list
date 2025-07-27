@@ -63,6 +63,9 @@ while (1) {
 		 case 3:
                 display();
                 break;
+		 case 4:
+                printf("Exiting...\n");
+                exit(0);
     
 
 
