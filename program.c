@@ -44,6 +44,9 @@ void display() {
     }
     printf("\n");
 }
+int main() {
+    int choice, value;
+
     
 
 
